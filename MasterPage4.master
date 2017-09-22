@@ -1,0 +1,37 @@
+<%@ Master Language="VB" CodeFile="MasterPage4.master.vb" Inherits="MasterPage4" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Management Information Report</title>
+    <link href="MgtStyleSheet.css" rel="stylesheet" type="text/css" />
+<script> 
+if(!window.opener){ 
+newWin=window.open (this.location,'newwindow','toolbar=no,menubar=no,scrollbars=no,resizable=yes,location=no,fullscreen=no,directories=no,status=no') 
+newWin.moveTo(0,0); 
+newWin.resizeTo(screen.availWidth,screen.availHeight) 
+window.opener='a'; 
+window.close(); 
+} 
+</script>    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+            <tr>
+                <td style="width: 100px; border-bottom: cornflowerblue thick solid; height: 45px;">
+                    <img src="images/erics_logo.gif" /></td>
+            </tr>
+            <tr>
+                <td style="width: 100px; height: 109px; border-top: #ffffff thin solid; background-image: url(images/mgtheaderstrip.gif);">
+                    <img src="images/HeaderImg.gif" /></td>
+            </tr>
+        </table>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>
