@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DSEstimatedCosGm</Name>
+  <DataSourceID>f86406dd-ee2f-4661-a9d0-c72f12d0321f</DataSourceID>
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=SESLSVRHO;Initial Catalog=Budget13</ConnectString>
+  </ConnectionProperties>
+</RptDataSource>

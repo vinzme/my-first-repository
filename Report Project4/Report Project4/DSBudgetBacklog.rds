@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DSBudgetBacklog</Name>
+  <DataSourceID>5ce74346-7822-4bbc-903f-c4a2f8d45008</DataSourceID>
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=SESLSVRHO;Initial Catalog=Budget13</ConnectString>
+  </ConnectionProperties>
+</RptDataSource>
